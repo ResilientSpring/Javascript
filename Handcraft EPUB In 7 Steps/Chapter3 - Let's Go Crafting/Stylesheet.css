@@ -25,3 +25,10 @@ we can enclose the entire text in a <div> element and use the class 'small'.*/
 div.small{
     font-size: 90%;
 }
+
+/*Ensure that the cover image spreads out on a full page.*/
+img.fullpage{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
