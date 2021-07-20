@@ -19,3 +19,9 @@ we can add the following to the initial stylesheet by using the class "indent"*/
 p.indent{
     text-indent: 1.5em;
 }
+
+/*If you want to reduce the font size of our imprint page,
+we can enclose the entire text in a <div> element and use the class 'small'.*/
+div.small{
+    font-size: 90%;
+}
