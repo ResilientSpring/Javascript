@@ -1,0 +1,34 @@
+/*--- body display ---*/
+body {
+    display:block;
+    font-family: Arial, sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 6em;
+    margin-right: 2em;
+}
+/*---Chapter heading---*/
+h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*If we want to have every paragraph start with indent to the right,
+we can add the following to the initial stylesheet by using the class "indent"*/
+p.indent{
+    text-indent: 1.5em;
+}
+
+/*If you want to reduce the font size of our imprint page,
+we can enclose the entire text in a <div> element and use the class 'small'.*/
+div.small{
+    font-size: 90%;
+}
+
+/*Ensure that the cover image spreads out on a full page.*/
+img.fullpage{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
