@@ -3,3 +3,7 @@ function do_not_click() {
 }
 
 document.onclick = do_not_click;
+
+document.onmousemove = function () {
+    window.alert("Do not move the mouse on my page!");
+}
