@@ -10,7 +10,13 @@
 
 <p id="demo"></p>
 
-<p>Using the example above, <span id="red">toCelsius</span> </p>
+<p>Using the example above, <span id="red">toCelsius</span> refers to the function definition/object,
+    and <span>toCelsius()</span> refers to the function result. </p>
+
+<p>Accessing a function without () will return the function definition/object
+    instead of the function result.</p>
+
+<p id="demo2"></p>
 
 <script>
     function toCelsius(fahrenheit) {
@@ -18,6 +24,7 @@
     }
 
     document.getElementById("demo").innerHTML = toCelsius(77);
+    document.getElementById("demo2").innerHTML = toCelsius;
 </script>
 
 </body>
