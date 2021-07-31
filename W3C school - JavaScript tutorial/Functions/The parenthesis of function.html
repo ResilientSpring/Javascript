@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +8,17 @@
 <body>
 <h2>The () operator invokes the function</h2>
 
+<p id="demo"></p>
+
+<p>Using the example above, <span id="red">toCelsius</span> </p>
+
+<script>
+    function toCelsius(fahrenheit) {
+        return (5/9) * (fahrenheit-32);
+    }
+
+    document.getElementById("demo").innerHTML = toCelsius(77);
+</script>
 
 </body>
 </html>
