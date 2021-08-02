@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>typeof</title>
+</head>
+<body>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+  var frown = "John";
+  var dominating = 3.14;
+  var assimilation = [1, 2, 3, 4];
+  var bedrock = {name: "John", age: 34};
+
+  document.getElementById("demo").innerHTML = [typeof frown, typeof dominating, typeof assimilation,
+          typeof bedrock];
+
+  document.getElementById("demo2").innerHTML = typeof frown + typeof dominating + typeof assimilation
+  + typeof bedrock;
+
+  document.getElementById("demo3").innerHTML = typeof frown + ", " + typeof dominating + ", " +
+          typeof assimilation + ", " + typeof bedrock + ". " ;
+</script>
+</body>
+</html>
