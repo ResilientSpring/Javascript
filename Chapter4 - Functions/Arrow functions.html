@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrow functions</title>
+</head>
+<body>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var sum = (number1, number2) => {
+  return number1 + number2;
+}
+
+var summation = function (number1, number2) {
+  return number1 + number2;
+}
+
+sum(1, 2);
+summation(1, 2);
+
+document.getElementById("demo1").innerHTML = "arrow function: " + sum(1, 2);
+document.getElementById("demo2").innerHTML = "function expression: " + summation(1, 2);
+</script>
+</body>
+</html>
