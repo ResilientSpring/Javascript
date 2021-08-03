@@ -9,7 +9,7 @@
 <h2>Order Results</h2>
 
 <?php
-echo "<p>Order processed.</p>";
+echo "<p>Order processed at </p>".date('H:i, jS F Y');
 ?>
 
 </body>
