@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Function Context</title>
+</head>
+<body>
+
+<p>A new thing for you to learn about functions is that they can
+  have other functions nested inside them.</p>
+
+<script>
+  var myname = "John";
+
+  function say_name() {
+    var mydog = "Joey";
+
+    // The say_food() function can only be called within the say_name() function and is not available
+    // in the global context. It can use any variables from the say_name() context or the global
+    // context.
+    function say_food() {
+      var myfood = "Pizza";
+      window.alert(myname + " and " + mydog + " like " + myfood);
+    }
+
+    window.alert(myname + " has a dog named " + mydog);
+    say_food();
+  }
+
+  // Call the say_name() function, which calls the say_food() function within it.
+  // The say_name() function can be called from the global context, but has a local variable mydog
+  // and a local function say_food().
+  say_name();
+
+</script>
+</body>
+</html>
