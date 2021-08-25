@@ -10,6 +10,21 @@
     have other functions nested inside them.</p>
 
 <script>
+var myname = "John";
+
+function say_name() {
+    var mydog = "Joey";
+
+    function say_food() {
+        var myfood = "Pizza";
+        window.alert(myname + " and " + mydog + " like " + myfood);
+    }
+
+    window.alert(myname + " has a dog named " + mydog);
+    say_food();
+}
+
+say_name();
 
 </script>
 </body>
