@@ -7,10 +7,12 @@
 <body>
 
 <script>
-    let myname = "John";
+    let myname = "John";  // The let keyword defines the variable myname in the global context.
 
     if (myname === "John")
-        let myname = "Jane";
+        let myname = "Jane";  // The let keyword defines the variable myname in the block context.
+
+    window.alert(myname);
 </script>
 </body>
 </html>
