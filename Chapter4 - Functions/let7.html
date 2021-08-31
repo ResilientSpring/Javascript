@@ -7,6 +7,25 @@
 <body>
 
 <script>
+    // First, a global context variable (myname) is created with the let keyword.
+    let myname = "John";
+
+    // The if statement creates a block context between the curly brackets.
+    if (myname === "John"){
+
+        // The let keyword can take advantage of this context to create its own myname variable
+        // with its own value within this context created by the if statement.
+        let myname = "Jane";
+
+        // As a result, the block context myname has a value of "Jane",
+        // which is sent in an alert within the block context created by the if statement.
+        window.alert(myname);
+
+    }
+
+    // Once this block context has ended, another alert is sent.
+    // The value of myname in the context is "John", so that is the value sent in the final alert.
+    window.alert(myname);
 
 </script>
 </body>
