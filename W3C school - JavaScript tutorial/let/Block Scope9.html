@@ -2,21 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Block scope of var</title>
+    <title>Block scope of keyword var</title>
 </head>
 <body>
 
 <script>
-
   {
-    var x = 2;
+    var x = 100;
+    window.alert(x);
   }
 
-  // x CAN be used here.
-  x = 3;
+  x = 200;
 
   window.alert(x);
-
 </script>
 </body>
 </html>
