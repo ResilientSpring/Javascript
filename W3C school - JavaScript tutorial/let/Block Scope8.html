@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block scope of var</title>
+</head>
+<body>
+
+<script>
+
+  {
+    var x = 2;
+  }
+
+  // x CAN be used here.
+  x = 3;
+
+  window.alert(x);
+
+</script>
+</body>
+</html>
