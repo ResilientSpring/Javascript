@@ -18,6 +18,6 @@ paycheck += 500;
 
 document.writeln(paycheck);
 
-paycheck = paycheck - 50;
+paycheck = paycheck - 80;
 
 document.writeln(paycheck);
