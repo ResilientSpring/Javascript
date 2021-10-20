@@ -1,4 +1,9 @@
 p {
     font-family: Verdana, sans-serif;
+    font-size: larger;
     color: blue;
+}
+
+code {
+    font-size: xx-large;
 }
