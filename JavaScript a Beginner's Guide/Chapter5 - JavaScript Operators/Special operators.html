@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Special operators</title>
@@ -20,10 +20,25 @@
 <p class="dark-mode">
     An example of how a ternary operator works:<br><br>
 
-    Input your age and click the button:
+    Input your age and click the button to see if you are eligible to vote:
 </p>
 
+<label for="age">
+    What is your age?
+
+    <input id="age" value="18" type="number"/>
+    <button onclick="handler()">Submit</button>
+
+</label>
+
+<p id="demo"></p>
+
 <script>
+    function handler() {
+        let age = document.getElementById("age").value;
+        let voteable = (age > 18) ? "Old enough" : "Too young";
+        document.getElementById("demo").innerHTML = voteable + " to vote.";
+    }
 
 </script>
 </body>
