@@ -35,6 +35,9 @@ if (num1 < num2) window.alert("True");
 else window.alert("False");
 
 let num4 = 1111;
-var num5 = 1000;
+var num5 = 1111.00;
 
-
+if (num4 === num5)
+    window.alert("True");
+else
+    window.alert("False");
