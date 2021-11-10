@@ -12,3 +12,29 @@ if (num3 == num2)
     window.alert("True");
 else
     window.alert("False");
+
+if (num3 > num2)
+    window.alert("True");
+else
+    window.alert("False");
+
+num2 = 7;
+
+if (num1 > num2) window.alert("True");
+else window.alert("False");
+
+if (num1 < num2)
+    window.alert("True");
+else
+    window.alert("False");
+
+
+num1 = 11;
+
+if (num1 < num2) window.alert("True");
+else window.alert("False");
+
+let num4 = 1111;
+var num5 = 1000;
+
+
