@@ -6,7 +6,7 @@ if ((city == null) || (city === ""))
 else
     switch (city) {
 
-        case "John\'stown":
+        case "John\'s town":
             msg = "We can have items delivered to you in 3 days.";
             break;
         case "Donville":
