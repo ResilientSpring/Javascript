@@ -9,13 +9,13 @@ else
         case "John\'s town":
             msg = "We can have items delivered to you in 3 days.";
             break;
-        case "Donville":
+        case "Don\'ville":
             msg = "We can have items delivered to you in 1 week.";
             break;
-        case "Danieltown":
+        case "Daniel's town":
             msg = "We can have items delivered to you in 2 weeks."
             break;
-        case "Martyville":
+        case "Marty's ville":
             msg = "We can have items delivered to you in 2 weeks.";
             break;
         default:
