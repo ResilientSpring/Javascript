@@ -22,3 +22,5 @@ else
             msg = "Sorry! We do not deliver to your city yet.";
     }
 
+document.write(msg);
+
