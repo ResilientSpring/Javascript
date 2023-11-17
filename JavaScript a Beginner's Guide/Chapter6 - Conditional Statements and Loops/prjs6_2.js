@@ -46,5 +46,8 @@ if (items > 0){
     )
 
 
+    for (let count = 1; count <= items; count++)
+        document.write(count + "._________________<br>");
+
 }
 
