@@ -13,6 +13,7 @@ else
             break;
         case "Don\'ville":
             msg = "We can have items delivered to you in 1 week.";
+            items = 5;
             break;
         case "Daniel's town":
             msg = "We can have items delivered to you in 2 weeks."
