@@ -38,6 +38,13 @@ if (items > 0){
 
     );
 
+    document.write(
+
+        "<p>Print this out, write your item numbers below. " +
+        "and mail it to us to order.</p>"
+
+    )
+
 
 }
 
