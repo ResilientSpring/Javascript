@@ -21,10 +21,23 @@ else
             break;
         case "Marty's ville":
             msg = "We can have items delivered to you in 2 weeks.";
+            items = 2;
             break;
         default:
             msg = "Sorry! We do not deliver to your city yet.";
+            items = 0;
     }
 
 document.write(msg);
+
+if (items > 0){
+
+    document.write(
+
+        "<p>We can deliver up to " + items + " items to your city.</p>"
+
+    );
+
+
+}
 
