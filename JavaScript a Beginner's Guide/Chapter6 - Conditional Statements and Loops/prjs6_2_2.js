@@ -33,15 +33,12 @@ document.write(msg);
 if (items > 0){
 
     document.write(
-
-        "<p>We can deliver up to " + items + " items to your city.</p>"
-
+        `<p>We can deliver up to $items items to your city. </p>`
     );
 
     document.write(
 
-        "<p>Print this out, write your item numbers below, " +
-        "and mail it to us to order.</p>"
+        `<p>Print this out, write your item numbers below, and mail it to us to order.</p>`
 
     )
 
