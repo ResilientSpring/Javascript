@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filter()</title>
+</head>
+<body>
+
+<script>
+
+    function pass_grades(current_array_element, array_index_of_the_element, array_name) {
+
+        return current_array_element >= 70;
+
+    }
+
+    let grades = [94, 65, 71, 84, 99];
+
+    let result = grades.filter(pass_grades);
+
+    window.alert(result);
+
+</script>
+
+</body>
+</html>
