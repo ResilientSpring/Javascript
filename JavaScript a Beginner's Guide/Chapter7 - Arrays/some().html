@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>some()</title>
+</head>
+<body>
+
+<script>
+
+    function pass_grades(item_value, item_index, arr_name) {
+
+        return item_value >= 70;
+    }
+
+    let grades = [94, 65, 71, 84, 99];
+
+    let result = grades.some(pass_grades);
+
+    window.alert(result);
+
+</script>
+
+</body>
+</html>
