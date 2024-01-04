@@ -10,9 +10,11 @@
 
     let scores = [55, 97, 100, 60, 65, 89, 70];
 
-    let mapped = scores.map();
+    let mapped = scores.map(callback);
 
     function callback(element_value, element_index, array_name){
+
+        return (element_value - array_name.length);
 
     }
 
