@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>foreach()</title>
+</head>
+<body>
+
+<script>
+
+    let array_of_numbers = [2, 4, 6, 8, 10];
+
+    function callBackFn(element_value, element_index,array_name) {
+
+        element_value = element_value + element_index + array_name.length;
+
+    }
+
+    array_of_numbers.forEach(callBackFn);
+
+    for (let i = 0; i < array_of_numbers.length; i++)
+        document.write(array_of_numbers[i] + "<br>");
+
+</script>
+
+</body>
+</html>
