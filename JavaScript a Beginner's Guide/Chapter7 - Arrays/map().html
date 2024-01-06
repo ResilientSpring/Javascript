@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>map()</title>
+</head>
+<body>
+
+<script>
+
+    let scores = [55, 97, 100, 60, 65, 89, 70];
+
+    let mapped = scores.map(callback);
+
+    function callback(element_value, element_index, array_name){
+
+        return (element_value - array_name.length);
+
+    }
+
+    for (let i = 0; i < mapped.length; i++)
+        document.write(mapped[i] + "<br>");
+
+</script>
+
+</body>
+</html>
