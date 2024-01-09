@@ -8,7 +8,13 @@
 
 <script>
 
+    let numbers = [2, 3, 5, 1, 2, 4];
 
+    let foundSmall = numbers.find(function (array_element, array_index, array_name) {
+        return array_element < 3;
+    })
+
+    window.alert(foundSmall);
 
 </script>
 
