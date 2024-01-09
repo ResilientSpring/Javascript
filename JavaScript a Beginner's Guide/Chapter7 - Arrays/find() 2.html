@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>find() 2</title>
+</head>
+<body>
+
+<script>
+
+    let numbers = [2, 3, 5, 1, 2, 4];
+
+    let foundSmall = numbers.find(function (itemValue) {
+
+        return itemValue < 3;
+
+    })
+
+    window.alert(foundSmall);
+
+    let foundLarge = numbers.find(function (itemValue) {
+        return itemValue > 7;
+    })
+
+    window.alert(foundLarge);
+
+</script>
+
+</body>
+</html>
