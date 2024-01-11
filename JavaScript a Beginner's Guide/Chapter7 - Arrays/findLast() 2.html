@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>findLast() 2</title>
+</head>
+<body>
+
+<script>
+
+    let numbers = [2, 3, 5, 7, 9, 14];
+
+    let found = numbers.findLast(function (array_element, array_index, array_name) {
+        return array_element < 5;
+    })
+
+    window.alert(found);
+
+</script>
+
+</body>
+</html>

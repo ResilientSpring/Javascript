@@ -10,6 +10,18 @@
 
   let numbers = [1, 3, 5, 1, 2, 4];
 
+  let foundSmall = numbers.findIndex(function (itemValue) {
+      return itemValue < 3;
+  })
+
+  window.alert(foundSmall);
+
+  let foundLarge = numbers.findIndex(function (itemValue) {
+      return itemValue > 7;
+  })
+
+  window.alert(foundLarge);
+
 </script>
 
 </body>
