@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>find() 3</title>
+</head>
+<body>
+
+<script>
+
+    let numbers = [2, 3, 5, 1, 2, 4];
+
+    function foundLessThan3(array_element, array_index, array_name) {
+        return array_element < 3;
+    }
+
+    let foundSmall = numbers.find(foundLessThan3);
+
+    window.alert(foundSmall);
+
+
+</script>
+
+</body>
+</html>
