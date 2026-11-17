@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Constructor Functions 4</title>
+</head>
+<body>
+
+<script>
+
+    // The constructor function
+    function Car(seats, engine, radio) {
+
+        this.seats = seats;
+        this.engine = engine;
+        this.radio = radio;
+
+    }
+
+    // Two object instances are created.
+    let work_car = new Car("cloth", "V-6", "Tape Deck");
+    let fun_car = new Car("leather", "V-8", "CD Player");
+
+    // Each variable is assigned the value of the engine property from the two distinct object instances.
+    let work_engine_type = work_car.engine;
+    let fun_engine_type = fun_car.engine;
+
+</script>
+
+
+</body>
+</html>
