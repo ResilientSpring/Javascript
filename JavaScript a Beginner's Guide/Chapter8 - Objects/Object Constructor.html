@@ -9,6 +9,11 @@
 <script>
     let car = new Object();
     car.seats = "cloth";
+    car.engine = "V-6";
+
+    car.show_feature = function () {
+        window.alert("car: " + car.seats + " seats, " + car.engine + " engine");
+    }
 
 </script>
 
