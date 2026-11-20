@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adding Methods 2</title>
+</head>
+<body>
+
+<script>
+
+    function Car(seats, engine, radio) {
+
+        this.seats = seats;
+        this.engine = engine;
+        this.radio = radio;
+        this.describe = function () {
+            document.write("This amazing car has these features: ");
+            document.write(seats + " seats, " + engine + " engine, ");
+            document.write(radio);
+        }
+    }
+
+    let work_car = new Car("cloth", "V-6", "Tape Deck");
+    work_car.describe();
+
+</script>
+
+</body>
+</html>
