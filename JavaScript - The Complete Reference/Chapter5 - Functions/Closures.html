@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Closures</title>
+</head>
+<body>
+
+<script>
+
+    function outer(){
+
+        var x = 10;
+
+        function inner() {
+            window.alert(x);
+        }
+
+        setTimeout(inner, 1000);
+
+    }
+
+</script>
+
+
+</body>
+</html>
