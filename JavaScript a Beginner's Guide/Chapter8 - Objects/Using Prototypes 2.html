@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using Prototypes</title>
+</head>
+<body>
+
+<script>
+
+    function Car(seats, engine, radio) {
+
+        this.seats = seats;
+        this.engine = engine;
+        this.radio = radio;
+
+    }
+
+    // Adds a property to the prototype of the Car function.
+    Car.prototype.locks = "automatic";
+
+</script>
+
+
+</body>
+</html>
