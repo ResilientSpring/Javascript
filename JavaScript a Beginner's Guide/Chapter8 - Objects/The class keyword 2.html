@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The class keyword 2</title>
+</head>
+<body>
+
+<script>
+
+    class Car {
+
+        constructor(seats, engine, radio) {
+            this.seats = seats;
+            this.engine = engine;
+            this.radio = radio;
+        }
+
+        describe(){
+            document.write("This amazing car has these features: ");
+            document.write(seats + " seats, " + engine + " engine, ");
+            document.write(radio);
+        }
+
+    }  // The end of the class declaration
+
+    let work_car = new Car("cloth", "V-6", "Tape Deck");
+    work_car.describe();
+
+</script>
+
+
+</body>
+</html>
